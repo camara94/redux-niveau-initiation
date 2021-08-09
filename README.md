@@ -18,3 +18,7 @@ Redux is a predictable state container for JavaScript apps.  It helps you write 
 ![avantage](images/avantage3.png)
 ## Présentation & concepts clés
 ![conceptscles](images/conceptscles.png)
+## Gestion état & cycle de vie
+![cycle](images/cycledevie.png)
+## Créateurs d'actions
+![action](images/action.png)
