@@ -26,3 +26,7 @@ Redux is a predictable state container for JavaScript apps.  It helps you write 
 ![reducer](images/reducer.png)
 ## Store
 ![store](images/store.png)
+## Cycle de vie unidirectionnel
+![uni](images/unidir.png)
+## Flux de données
+![flux](images/fludedonnees.png)
