@@ -8,3 +8,5 @@ Redux is a predictable state container for JavaScript apps.  It helps you write 
 ![connaissance](images/connaissancerequise.png)
 ## Ressources & Outils 
 ![ressourceetoutils](images/ressourceetoutils.png)
+## Redux Kezako ?
+![redux](images/reduxkezako.png)
