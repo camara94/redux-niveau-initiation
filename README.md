@@ -6,3 +6,5 @@ Redux is a predictable state container for JavaScript apps.  It helps you write 
 ![public](images/public.png)
 ## Connaissances requises
 ![connaissance](images/connaissancerequise.png)
+## Ressources & Outils 
+![ressourceetoutils](images/ressourceetoutils.png)
