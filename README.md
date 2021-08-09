@@ -43,3 +43,9 @@ Redux is a predictable state container for JavaScript apps.  It helps you write 
 ![definir](images/definirreducer.png)
 ![initail](images/initalstate.png)
 ![red](images/red.png)
+## Défintion du Store
+![def](images/defstore.png)
+## Création du store
+![create store](images/createstore.png)
+## Actions
+![action store](images/actionstore.png)
