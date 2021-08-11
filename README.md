@@ -54,3 +54,14 @@ Redux is a predictable state container for JavaScript apps.  It helps you write 
 ## Utiliser des middmewares
 ![middleware](images/midleware.png)
 ![an](images/enhancer.png)
+## Redux Toolkit
+![redux](images/reduxtoolkit.png)
+## Pourquoi Redux Toolkit ?
+![redux toolkit](images/pourquoireduxtoolkit.png)
+## Installation de Redux Toolkit
+![installation](images/installationreduxtoolkit.png)
+## API de Redux Toolkit
+L'API de Redux Toolkit, nous permet d'acceder à:
+![accede](images/acceder.png)
+## Redux Toolkit: Documentation Complète
+[https://redux-toolkit.js.org](https://redux-toolkit.js.org)
