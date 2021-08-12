@@ -1,5 +1,9 @@
 import { useState, useEffect } from 'react';
+import reducer from './lib/reducer';
+import * as actions from './lib/actions';
+
 import './App.css';
+import store from './lib/store';
 const styles = {
   h1: {
     margin: 0,
@@ -23,11 +27,13 @@ function App() {
   const [input, setInput] = useState(0);
   const increment = () => {
     setValue( prevCount => ( prevCount + 1 ) );
+    store.dispatch( actions.increment() );
   }
   const decrement = () => {
     setValue( prevCount => ( prevCount - 1 ) );
+    store.dispatch( actions.decrement() )
   }
-  useEffect(() =>console.log(value), [value]);
+  useEffect(() => console.log( store.getState() ) , [value]);
   return (
     <div className="App">
       <header className="App-header">
