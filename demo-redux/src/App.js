@@ -33,6 +33,8 @@ function App() {
     setValue( prevCount => ( prevCount - 1 ) );
     store.dispatch( actions.decrement() )
   }
+  const incrementBy = () => setValue( prevCount => prevCount + parseInt( input )  )
+  const decrementBy = () => setValue( prevCount => prevCount - parseInt( input )  )
   useEffect(() => console.log( store.getState() ) , [value]);
   return (
     <div className="App">
@@ -44,10 +46,10 @@ function App() {
            <button onClick={decrement}>-</button>
            <button onClick={increment}>+</button>
          </div><br />
-         <div style={{...styles.buttons, ...styles.disabled}}>
-           <button onClick={() => null} >add</button>
+         <div style={styles.buttons}>
+           <button onClick={decrementBy} >substract</button>
            <input type="text" onChange={ e => setInput( e.target.value ) } value={input} /> &nbsp;
-           <button onClick={() => null} >substract</button>
+           <button onClick={incrementBy} >add</button>
          </div>
        </div>
       </header>
