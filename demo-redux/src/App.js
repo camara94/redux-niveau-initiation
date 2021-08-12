@@ -33,8 +33,14 @@ function App() {
     setValue( prevCount => ( prevCount - 1 ) );
     store.dispatch( actions.decrement() )
   }
-  const incrementBy = () => setValue( prevCount => prevCount + parseInt( input )  )
-  const decrementBy = () => setValue( prevCount => prevCount - parseInt( input )  )
+  const incrementBy = () => {
+      setValue( prevCount => prevCount + parseInt( input )  );
+      store.dispatch(  actions.incrementBy( parseInt( input ) ) );
+  }
+  const decrementBy = () => {
+    setValue( prevCount => prevCount - parseInt( input )  );
+    store.dispatch( actions.decrementBy( parseInt( input ) ) );
+  }
   useEffect(() => console.log( store.getState() ) , [value]);
   return (
     <div className="App">
