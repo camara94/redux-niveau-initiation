@@ -3,7 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import { increment, decrement } from './lib/actions';
+console.log(increment())
+console.log( decrement() )
 ReactDOM.render(
   <React.StrictMode>
     <App />

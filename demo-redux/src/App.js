@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import logo from './logo.svg';
 import './App.css';
 const styles = {
   h1: {
@@ -28,7 +27,7 @@ function App() {
   const decrement = () => {
     setValue( prevCount => ( prevCount - 1 ) );
   }
-  useEffect(() =>console.log(value), [value])
+  useEffect(() =>console.log(value), [value]);
   return (
     <div className="App">
       <header className="App-header">
