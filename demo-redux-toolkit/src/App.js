@@ -1,9 +1,8 @@
 import logo_redux from './logo-redux1.png';
 import './App.css';
-import actions  from './lib/actions';
+import store from './lib/store';
 
 function App() {
-  console.log( actions.decrement().type )
   return (
     <div className="App">
       <header className="App-header">
