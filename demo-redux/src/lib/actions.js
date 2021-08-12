@@ -1,20 +1,15 @@
-const INCREMENT =  {
-    type: 'INCREMENT',
-    payload: {}
-};
-const DECREMENT = {
-    type: 'DECREMENT',
-    payload: {}
+export const ACTIONS = {
+    INCREMENT: 'INCREMENT',
+    DECREMENT: 'DECREMENT'
 }
-
 export const increment = () =>{
     return {
-        type: INCREMENT.type
+        type: ACTIONS.INCREMENT
     }
 }
 
 export const decrement = () => {
     return {
-        type: DECREMENT.type
+        type: ACTIONS.DECREMENT
     }
 }
